@@ -1,3 +1,3 @@
 # USP - ACH2117 - Trabalho
 
-> Trabalho que consiste em simular o sistema solar usando OpenGL
+> Trabalho que simula o sistema solar com OpenGL
