@@ -7,7 +7,7 @@ OpenGL foi Python, com as bibliotecas [moderngl](https://github.com/moderngl/mod
 
 Foram aplicadas translações, rotações, texturas, projeção perspectiva, posicionamento de câmera e iluminação sobre os nós (universo, Sol e planetas) da cena
 
-https://github.com/willpinha/usp.ach2117.ep/assets/86596621/b62ae224-24f3-47b6-b44e-a1baf6112a58
+https://github.com/willpinha/usp.ach2117.ep/assets/86596621/0b6fdbd7-0e80-4bf1-9fb3-9ef322fd6631
 
 ## Como executar?
 
