@@ -5,7 +5,11 @@
 Esse EP tem como finalidade apresentar uma animação de 30 segundos feita com OpenGL. A linguagem de programação para utilizar a interface do
 OpenGL foi Python, com as bibliotecas [moderngl](https://github.com/moderngl/moderngl) e [moderngl_window](https://github.com/moderngl/moderngl-window)
 
-Foram aplicadas translações, rotações, texturas, projeção perspectiva, posicionamento de câmera e iluminação sobre os nós (universo, Sol e planetas) da cena
+A animação feita foi do Sistema Solar. Foram aplicadas translações, rotações, texturas, projeção perspectiva, posicionamento de câmera e iluminação sobre
+os nós (universo, Sol e planetas) da cena
+
+> **Note**
+> Algumas medidas físicas não foram respeitadas, como o tamanho e a velocidade dos planetas e do Sol
 
 https://github.com/willpinha/usp.ach2117.ep/assets/86596621/0b6fdbd7-0e80-4bf1-9fb3-9ef322fd6631
 
