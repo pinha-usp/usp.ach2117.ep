@@ -2,7 +2,7 @@
 
 > Exercício Programa que simula o sistema solar com OpenGL
 
-![sistema-solar](https://github.com/willpinha/usp.ach2117.trabalho/assets/86596621/e19452cb-09da-4799-8130-0c6c14169cd3)
+![sistema-solar](https://github.com/willpinha/usp.ach2117.trabalho/assets/86596621/1854c08a-9759-4aff-9648-c92b7af466ab)
 
 ## Como executar?
 
