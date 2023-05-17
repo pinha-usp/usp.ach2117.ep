@@ -15,3 +15,4 @@ class Universe(Node):
 
     def transform(self, time):
         self.scale([100, 100, 100])
+        self.rotate(3 * time, (0, 1, 0))

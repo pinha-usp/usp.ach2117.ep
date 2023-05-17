@@ -34,7 +34,7 @@ class Planet(Node):
             self.distance * glm.cos(self.velocity * time)
         ])
 
-        self.rotate(time * 30, (0, 1, 0))
+        self.rotate(time * 60, (0, 1, 0))
 
 class Planets:
     class Mercury(Planet):
