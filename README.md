@@ -2,6 +2,11 @@
 
 > Exercício Programa que simula o sistema solar com OpenGL
 
+Esse EP tem como finalidade apresentar uma animação de 30 segundos feita com OpenGL. A linguagem de programação para utilizar a interface do
+OpenGL foi Python, com as bibliotecas [moderngl](https://github.com/moderngl/moderngl) e [moderngl_window](https://github.com/moderngl/moderngl-window)
+
+Foram aplicadas translações, rotações, texturas, projeção perspectiva, posicionamento de câmera e iluminação sobre os nós (universo, Sol e planetas) da cena
+
 https://github.com/willpinha/usp.ach2117.trabalho/assets/86596621/1854c08a-9759-4aff-9648-c92b7af466ab
 
 ## Como executar?
