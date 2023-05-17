@@ -44,7 +44,7 @@ class Scene:
 class Node:
     def __init__(self, program, texture, vao, mode):
         self.program = program
-        self.texture = TextureLoader.load(texture);
+        self.texture = TextureLoader.load(texture) 
         self.vao = vao
         self.mode = mode
         self.model = glm.mat4(1.0)
