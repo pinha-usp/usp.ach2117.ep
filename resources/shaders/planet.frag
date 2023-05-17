@@ -8,7 +8,7 @@ uniform sampler2D tex;
 
 void main() {
     vec3 lightColor = vec3(1.0);
-    float ambientStrength = 0.2;
+    float ambientStrength = 0.1;
     vec3 ambient = ambientStrength * lightColor;
 
     vec3 lightPos = vec3(0.0);

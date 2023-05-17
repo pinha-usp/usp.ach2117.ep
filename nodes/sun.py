@@ -15,4 +15,4 @@ class Sun(Node):
 
     def transform(self, time):
         self.scale([2, 2, 2])
-        self.rotate(time * 20, (0, 1, 0))
+        self.rotate(-time * 20, (0, 1, 0))

@@ -1,5 +1,6 @@
 from pathlib import Path
 
+import glm
 import moderngl as mgl
 import moderngl_window as mglw
 
@@ -35,8 +36,7 @@ class Window(mglw.WindowConfig):
             ]
         )
 
-        self.scene.camera.move_to((0, 20, -15))
-        self.scene.camera.look_at((0, 0, 0))
+        self.scene.camera.look_at((0, 3, 0))
 
     def render(self, time, frametime):
         self.ctx.clear()
@@ -44,5 +44,13 @@ class Window(mglw.WindowConfig):
         self.ctx.enable(mgl.BLEND)
 
         self.texture.use()
+
+        camera_dist = 3
+        velocity = 0.37699111843077515
+        self.scene.camera.move_to((
+            -camera_dist * glm.sin(velocity * time),
+            5,
+            -camera_dist * glm.cos(velocity * time)
+        ))
 
         self.scene.render(time)
